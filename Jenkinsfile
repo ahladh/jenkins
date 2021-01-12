@@ -5,6 +5,9 @@ pipeline {
             steps {
                 sh './update.sh'
             }
+        stage('Test') {
+                sh './update.sh'
+           }
         }
     }
 }
