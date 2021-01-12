@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh './update.sh'
             }
-        stage('Test') {
+            steps {
                 sh './update.sh'
            }
         }
