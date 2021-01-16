@@ -13,6 +13,10 @@ pipeline {
                 echo "Current Workspace ${workspace}"
             }
         }
+        stage('Sanity Check'){
+        input 'Shall I complete the job?'
+        }
+
     }
     post {
         always{
