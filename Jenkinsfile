@@ -14,7 +14,9 @@ pipeline {
             }
         }
         stage('Sanity Check'){
-        input 'Shall I complete the job?'
+            steps{
+                  input 'Shall I complete the job?'
+            }
         }
 
     }
