@@ -10,6 +10,7 @@ pipeline {
             }
             steps {
                 echo "Level env var has higher precedence in ${Level}"
+                echo "Current Workspace ${workspace}"
             }
         }
     }
