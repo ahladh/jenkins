@@ -1,3 +1,5 @@
 #!/bin/bash
 
-sudo apt update
+apt update
+echo "Current User\n"
+whoami
