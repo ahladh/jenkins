@@ -5,9 +5,6 @@ pipeline {
             steps {
                 sh './update.sh'
             }
-            steps {
-                sh './update.sh'
-           }
         }
     }
 }
